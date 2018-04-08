@@ -8,6 +8,7 @@ North East has a vast potential for tourism but there are very less of them to b
 
 1. Open console at [DialogFlow](https://www.dialogflow.com) and make a new Agent.
 2. Goto Settings > Export and Import > Import from zip and open zip file.
-3. Now, for configuring [Flask](http://flask.pocoo.org/), make a new Github Repository with files inside flask folder as contents.
-4. Goto [Heroku](https://www.heroku.com/) and deploy that flask repo.
-5. Go back to DialogFlow. Open Integrations and deploy on your favourite media platform
+3. Open Fulfilment and check Inline Editor. Change index.js to the one in the repository.
+4. Now, for configuring [Flask](http://flask.pocoo.org/), make a new Github Repository with files inside flask folder as contents.
+5. Goto [Heroku](https://www.heroku.com/) and deploy that flask repo.
+6. Go back to DialogFlow. Open Integrations and deploy on your favourite media platform
