@@ -1,0 +1,105 @@
+{
+  "id": "ff8c944a-219f-49d5-9572-3c1f0dfd44ce",
+  "name": "weather.outfit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weather.outfit",
+      "affectedContexts": [
+        {
+          "name": "weather",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bf36a370-02b4-4b92-abc8-94a70514e546",
+          "required": false,
+          "dataType": "@outfit",
+          "name": "outfit",
+          "value": "$outfit",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "You better have one.",
+            "I would strongly recommend this",
+            "Maybe not",
+            "Your call"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "zh-cn",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "fr",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "it",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "zh-hk",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "pt",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "ru",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "de",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523116623,
+  "fallbackIntent": false,
+  "events": []
+}

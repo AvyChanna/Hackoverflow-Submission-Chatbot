@@ -1,0 +1,111 @@
+{
+  "id": "449c2dbd-0b9c-4a4f-8f30-ebc91de68de7",
+  "name": "hotel-book",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "book-hotel",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e0358122-6322-4ecc-a3a3-c630150f555a",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "isList": false
+        },
+        {
+          "id": "23ea35ea-ab3c-49da-a7eb-55187043e325",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "isList": false
+        },
+        {
+          "id": "0bb0f6f4-d283-48dc-b192-1ed81764abbf",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "isList": false
+        },
+        {
+          "id": "77c99330-a053-407d-abc4-9e21d21a7340",
+          "required": false,
+          "dataType": "@sys.geo-state-us",
+          "name": "geo-state-us",
+          "value": "$geo-state-us",
+          "isList": false
+        },
+        {
+          "id": "1b57f5f9-3046-4be7-9a28-2965ac355c71",
+          "required": false,
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        },
+        {
+          "id": "4d4a54a3-b610-4d77-b2cd-2953e876ab11",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "b001933e-a423-4afd-ba11-6dcc74c0f56c",
+          "required": false,
+          "dataType": "@hotel-name",
+          "name": "hotel-name",
+          "value": "$hotel-name",
+          "isList": false
+        },
+        {
+          "id": "4b266dfa-ed33-4010-b11c-cc6abb59b0c5",
+          "required": false,
+          "dataType": "@hotel-type",
+          "name": "hotel",
+          "value": "$hotel",
+          "isList": false
+        },
+        {
+          "id": "40998642-222f-467a-9c1c-a97b6be79d9f",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ERROR  500: something went wrong"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523178457,
+  "fallbackIntent": false,
+  "events": []
+}

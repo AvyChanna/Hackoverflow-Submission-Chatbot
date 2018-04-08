@@ -1,0 +1,92 @@
+[
+  {
+    "id": "3f04bccd-83fc-4f09-86d3-08ebd75681ce",
+    "data": [
+      {
+        "text": "how is the ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "alias": "condition",
+        "meta": "@weather-condition",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "7797642c-d73d-448a-a2a2-94c7596f8f3e",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "humidity",
+        "alias": "condition",
+        "meta": "@weather-condition",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523114274
+  },
+  {
+    "id": "e1f0d082-eb78-45fe-9342-72185855f353",
+    "data": [
+      {
+        "text": "what about ",
+        "userDefined": false
+      },
+      {
+        "text": "snowing",
+        "alias": "condition",
+        "meta": "@weather-condition",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523114274
+  },
+  {
+    "id": "e3aa74f9-d49c-4fc3-bb48-ac098dca38b2",
+    "data": [
+      {
+        "text": "and ",
+        "userDefined": false
+      },
+      {
+        "text": "rain",
+        "alias": "condition",
+        "meta": "@weather-condition",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523114274
+  },
+  {
+    "id": "f986992c-11e8-4612-9a8f-81ee9ca641b5",
+    "data": [
+      {
+        "text": "how about ",
+        "userDefined": false
+      },
+      {
+        "text": "thunderstorm",
+        "alias": "condition",
+        "meta": "@weather-condition",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1523114274
+  }
+]
